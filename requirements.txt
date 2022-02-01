@@ -1,0 +1,5 @@
+streamlit
+matplotlib.pyplot
+numpy
+mpl_toolkits.mplot3d
+sympy
