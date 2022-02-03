@@ -29,6 +29,7 @@ def main():
 def plot_table():
 
     st.title('Bwhiz plotting app')
+    st.warning("Input your values and separate them with a comma, e.g: -1,0,1")
 
     def plotter():
         a , b= np.polyfit(processed_x,processed_y,1)
@@ -137,7 +138,7 @@ def plot_func():
 
     with col1:
         st.warning(" Use \* for multiplication and \*\* for 'raise to power', e.g: $$2x^2$$ would be written symbollically as 2*x**2")
-        function = st.text_input("Enter your function here")
+        function = st.text_input("Enter your function here").lower()
 
         st.warning("keep the domain of the function above in mind while inputting your [min, max], and limit values to smaller ranges for faster rendering e.g [-1,1]")
         val_a = st.text_input("Enter your min plot value [a, ]")
