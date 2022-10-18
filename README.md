@@ -1,4 +1,4 @@
-# My_plotter_app
+# Experimental-Physics-and-3D-graphing-App
 
 This is a simple app I created in other to replace the manual plotting of graphs during experimental physics classes at my Institution.
 Purely written in python and deployed with [streamlit](share.streamlit.io).
